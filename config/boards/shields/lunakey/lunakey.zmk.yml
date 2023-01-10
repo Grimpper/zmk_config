@@ -1,0 +1,14 @@
+file_format: "1"
+id: lunakey
+name: Lunakey
+type: shield
+url: https://github.com/yoichiro/lunakey
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+  - underglow
+siblings:
+  - lunakey_left
+  - lunakey_right
